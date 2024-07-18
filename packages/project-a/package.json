@@ -1,0 +1,11 @@
+{
+  "name": "project-a",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "echo Building project-a"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:8081/repository/rush-publish-test-repository/"
+  }
+}

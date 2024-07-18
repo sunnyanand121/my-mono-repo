@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.130.1",
+  "pnpmVersion": "8.15.8",
+  "nodeSupportedVersionRange": ">=18.20.3 <19.0.0 || >=20.14.0 <21.0.0",
+  "gitPolicy": {},
+
+  "repository": {
+    "url": "https://github.com/sunnyanand121/my-mono-repo"
+  },
+
+  "eventHooks": {
+    "preRushInstall": [],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": [],
+    "preRushx": [],
+    "postRushx": []
+  },
+  "projects": [
+    {
+      "packageName": "project-a",
+      "projectFolder": "packages/project-a"
+    },
+    {
+      "packageName": "project-b",
+      "projectFolder": "packages/project-b"
+    }
+  ]
+}
