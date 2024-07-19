@@ -6,6 +6,6 @@
     "build": "echo Building project-b"
   },
   "publishConfig": {
-    "registry": "http://localhost:8081/repository/test101/"
+    "registry": "http://localhost:8081/repository/rush-publish-test-repository/"
   }
 }
