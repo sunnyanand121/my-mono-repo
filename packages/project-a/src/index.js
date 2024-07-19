@@ -1,1 +1,1 @@
-export const projectA = () => "test comp 101";
+export const projectA = () => "test comp 102";
